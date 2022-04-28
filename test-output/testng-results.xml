@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-28T11:52:43 PDT" name="Suite" finished-at="2022-04-28T11:53:07 PDT" duration-ms="24187">
+    <groups>
+    </groups>
+    <test started-at="2022-04-28T11:52:43 PDT" name="Test" finished-at="2022-04-28T11:53:07 PDT" duration-ms="24187">
+      <class name="tests.TC001_CreateLead">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:52:43 PDT" name="beforeSuite" finished-at="2022-04-28T11:52:43 PDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:52:43 PDT" name="setData" finished-at="2022-04-28T11:52:43 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:52:43 PDT" name="beforeClass" finished-at="2022-04-28T11:52:43 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:52:44 PDT" name="beforeMethod" finished-at="2022-04-28T11:52:48 PDT" duration-ms="3740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="startLogin()[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:52:48 PDT" name="startLogin" finished-at="2022-04-28T11:52:49 PDT" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startLogin -->
+        <test-method signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:52:49 PDT" name="createLead" data-provider="fetchData" finished-at="2022-04-28T11:53:03 PDT" duration-ms="14234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manickam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:53:03 PDT" name="afterMethod" finished-at="2022-04-28T11:53:07 PDT" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TC001_CreateLead@1283bb96]" started-at="2022-04-28T11:53:07 PDT" name="afterSuite" finished-at="2022-04-28T11:53:08 PDT" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
